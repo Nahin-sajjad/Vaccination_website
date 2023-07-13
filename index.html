@@ -18,20 +18,29 @@
                 <input type="text" id="idInput" placeholder="NID/Passport Number" required>
                 <input type="text" id="mobileInput" placeholder="Mobile Number" required>
                 <input type="email" id="emailInput" placeholder="Email" required>
+                <input type="password" id="passwordInput" placeholder="Password" required>
                 <button type="submit">Register</button>
             </form>
         </section>
-        <section id="vaccinationDateSection">
+        <section id="loginSection" style="display: none;">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="text" id="loginIdInput" placeholder="NID/Passport Number" required>
+                <input type="password" id="loginPasswordInput" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+        <section id="vaccinationDateSection" style="display: none;">
             <h2>Vaccination Date</h2>
             <p id="vaccinationDate"></p>
             <button id="certificateButton">Generate Certificate</button>
         </section>
-        <section id="certificateSection">
+        <section id="certificateSection" style="display: none;">
             <h2>Certificate</h2>
             <p id="certificateText"></p>
             <button id="downloadButton">Download PDF</button>
         </section>
-        <section id="accountSection">
+        <section id="accountSection" style="display: none;">
             <h2>User Account</h2>
             <div id="userInfo"></div>
         </section>
