@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vaccination System</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Vaccination System</h1>
+    </header>
+    <main>
+        <section>
+            <h2>User Registration</h2>
+            <form id="registrationForm">
+                <input type="text" id="nameInput" placeholder="Name" required>
+                <input type="text" id="idInput" placeholder="NID/Passport Number" required>
+                <input type="text" id="mobileInput" placeholder="Mobile Number" required>
+                <input type="email" id="emailInput" placeholder="Email" required>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+        <section id="vaccinationDateSection">
+            <h2>Vaccination Date</h2>
+            <p id="vaccinationDate"></p>
+            <button id="certificateButton">Generate Certificate</button>
+        </section>
+        <section id="certificateSection">
+            <h2>Certificate</h2>
+            <p id="certificateText"></p>
+            <button id="downloadButton">Download PDF</button>
+        </section>
+        <section id="accountSection">
+            <h2>User Account</h2>
+            <div id="userInfo"></div>
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

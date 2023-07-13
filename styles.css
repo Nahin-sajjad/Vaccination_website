@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+form input, button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#vaccinationDateSection, #certificateSection {
+    display: none;
+}
+
+#certificateText {
+    white-space: pre-wrap;
+}
